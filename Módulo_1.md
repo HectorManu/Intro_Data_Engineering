@@ -22,9 +22,12 @@ El valor que podemos obtener de los Datos depende de sólo dos cosas:
       - [Habilidadese funcionales](#habilidadese-funcionales)
       - [Habilidades interpersonales](#habilidades-interpersonales)
   - [Cualidades y Habilidades para ser Ingeniero de Datos](#cualidades-y-habilidades-para-ser-ingeniero-de-datos)
+    - [Habilidades esenciales para ingenieros de datos](#habilidades-esenciales-para-ingenieros-de-datos)
+      - [Habilidades blandas](#habilidades-blandas)
   - [Un día en la vida de un Ingeniero de Datos](#un-día-en-la-vida-de-un-ingeniero-de-datos)
   - [Aplicaciones de la Ingenería de Datos](#aplicaciones-de-la-ingenería-de-datos)
   - [Resumen y aspectos destacados](#resumen-y-aspectos-destacados-1)
+  - [Examen de Módulo 1](#examen-de-módulo-1)
 
 
 ## Ecosistema de Datos moderno
@@ -235,9 +238,142 @@ Por lo tanto, las habilidades interpersonales, el trabajo en equipo y la colabor
 
 ## Cualidades y Habilidades para ser Ingeniero de Datos
 
+Es necesario buscar experiencia con bases de datos relaciones y **Cassandra** o el tipo de arquitectura de Google Bittable para aplicaciones que estén funcionanod todo el año. 
+
+También constuir pipelines usando **kafka** o **Streams** y **WebSphere MQ** para realizar algún procesmiato administrativo de los datos transaccionales.
+
+Todo depende del sector en el cual uno se desenpeñe y vaya requiriendo para el tipo de demanda que va requiriendo cada aplicación. 
+
+Es importante tener conocimiento en: 
+- Estructura de datos
+- Cómo trabajar con los datos
+
+
+> Nota: Hay muchs cambios en cualquier campo de datos y tienes que estar dispuesto a seguir adelante con ese cambio.
+
+- Se requiere estar entendido con los diferentes tipos de almacenes, almacenes locales así como en la nube.
+- Conocimiento en **programación**
+
+> Nota: Un ingeniero de datos debe ser muy competente en **SQL**
+
+### Habilidades esenciales para ingenieros de datos
+
+1. SQL 
+2. Modelado de datos
+3. Metodologías ETL 
+4. Habilidades de programación
+
+
+#### Habilidades blandas
+
+1. Bueno en el trabajo en equipo 
+2. Colaboración y comunicación 
+3. (Desde una perspectiva no técnica) Se espera que un ingeniero de datos sea un solucionador de problemas.
+4. Buenas habilidades de comunicación
+
+> Nota: Las habilidades má imiporntantes son habilidades blandas.
+> <br> Necesitas pdoer interactuar acon lso desarrolladores
+> Poder defender tu opciones a la gestión 
+> Justificar las elecciónes, el por qué son importantes, y por qué hay que hacer las cosas de una manera particular.
+
+
 ## Un día en la vida de un Ingeniero de Datos
+
+En esta sección se habla de cómo una empresa de productos para el cabello necesita obtener datos de multiples fuentes y automatizar su tiempo para conseguir el objetivo de poder tener la percepción en tiempo real de un lanzamiento nuevo de un producto. 
 
 ## Aplicaciones de la Ingenería de Datos
 
+![Data Pipeline](/img/datapipeline.png)
+
+
+
 ## Resumen y aspectos destacados
+
+Las metodologías ETL (Extract, Transform, Load) son un conjunto de procesos y técnicas utilizados en la gestión y transformación de datos en proyectos de análisis de datos y almacenamiento en almacenes de datos (data warehouses) o data lakes. Estas metodologías son esenciales para garantizar que los datos sean limpios, coherentes y listos para su análisis. Aquí te explico todo lo que debes saber sobre las metodologías ETL si eres un ingeniero de datos:
+
+1. **Extract (Extraer)**:
+   - En esta fase, se obtienen los datos de diversas fuentes, como bases de datos, sistemas de registro, archivos planos, API web, y más.
+   - La extracción implica copiar los datos de origen y llevarlos a un lugar centralizado para su procesamiento.
+   - Los datos extraídos pueden ser crudos o semiestructurados, lo que significa que pueden requerir limpieza y transformación antes de su uso.
+
+2. **Transform (Transformar)**:
+   - La fase de transformación es donde los datos se modifican, enriquecen y se ajustan para satisfacer las necesidades del análisis.
+   - Las tareas de transformación pueden incluir:
+     - Limpieza de datos: Identificar y corregir errores, valores faltantes o inconsistentes.
+     - Filtrado de datos: Seleccionar solo los datos relevantes para el análisis.
+     - Estandarización: Alinear formatos y unidades de medida.
+     - Normalización: Convertir datos en un formato coherente.
+     - Agregación: Resumir datos para análisis de alto nivel.
+     - Enriquecimiento: Incorporar datos adicionales, como información geográfica o datos calculados.
+
+3. **Load (Cargar)**:
+   - En la fase de carga, los datos transformados se almacenan en un almacén de datos, que puede ser un data warehouse, data lake o cualquier otro sistema de almacenamiento centralizado.
+   - Los datos se organizan en tablas o estructuras adecuadas para facilitar el análisis y el acceso posterior.
+   - La carga puede ser incremental o completa, dependiendo de las necesidades del negocio y la frecuencia de actualización de los datos.
+
+Ahora, aquí hay algunos conceptos adicionales relacionados con las metodologías ETL:
+
+- **ETL Batch vs. ETL en Tiempo Real**:
+   - ETL Batch se refiere a procesos que se ejecutan en lotes programados, generalmente durante la noche, para actualizar los datos.
+   - ETL en Tiempo Real implica el procesamiento de datos a medida que se generan, lo que permite la toma de decisiones más rápida pero requiere una infraestructura más compleja.
+
+- **Herramientas ETL**:
+   - Existen varias herramientas ETL disponibles, tanto de código abierto como comerciales, que facilitan la implementación de estos procesos. Ejemplos populares incluyen Apache NiFi, Talend, Informatica, y Apache Spark.
+
+- **Calidad de Datos**:
+   - Garantizar la calidad de los datos es fundamental en ETL. Esto incluye la validación de datos, la gestión de errores y la auditoría para asegurar que los datos sean precisos y fiables.
+
+- **Monitoreo y Mantenimiento**:
+   - Los procesos ETL deben ser monitoreados de cerca y actualizados según sea necesario para adaptarse a cambios en los datos de origen o en los requisitos del negocio.
+
+En resumen, las metodologías ETL son esenciales en la gestión de datos para garantizar que los datos sean útiles y confiables para su análisis. Como ingeniero de datos, debes ser competente en la implementación de estos procesos y estar al tanto de las mejores prácticas y las herramientas disponibles en el campo del ETL.
+
+Un pipeline en ingeniería de datos es un conjunto de pasos secuenciales que se utilizan para procesar, transformar y mover datos desde su origen hasta su destino final. Estos pipelines son esenciales para garantizar la gestión eficiente de datos en proyectos de análisis, procesamiento y almacenamiento. Aquí te explico todo lo que debes saber acerca de los pipelines en ingeniería de datos:
+
+1. **Origen de Datos**:
+   - Un pipeline comienza en el origen de datos, que puede ser una fuente como bases de datos, sistemas de registro, archivos planos, servicios web, sensores, o cualquier otra fuente de información.
+
+2. **Extracción de Datos**:
+   - El primer paso del pipeline generalmente implica la extracción de datos desde la fuente. Esto puede involucrar la consulta de bases de datos, la lectura de archivos, la captura de datos en tiempo real, etc.
+   - Es importante garantizar que los datos extraídos sean integrales y precisos.
+
+3. **Transformación de Datos**:
+   - Después de la extracción, los datos a menudo se someten a una serie de transformaciones. Estas transformaciones pueden incluir limpieza, filtrado, agregación, enriquecimiento y normalización de datos.
+   - La transformación es crucial para preparar los datos para su análisis y asegurarse de que sean coherentes y relevantes.
+
+4. **Transporte de Datos**:
+   - Una vez que los datos se han transformado, se transportan desde el lugar de extracción al lugar de destino. Esto puede involucrar el movimiento de datos entre servidores, sistemas de almacenamiento o servicios en la nube.
+
+5. **Carga de Datos**:
+   - En la fase de carga, los datos se almacenan en el destino final, que podría ser un data warehouse, data lake, base de datos, o cualquier otro sistema de almacenamiento.
+   - Los datos se estructuran y organizan según las necesidades del análisis.
+
+6. **Programación y Orquestación**:
+   - Los pipelines suelen ser programados y orquestados para ejecutarse en horarios específicos o en respuesta a eventos desencadenantes.
+   - Herramientas como Apache Airflow, Apache NiFi, y otros, se utilizan para administrar y programar pipelines de manera eficiente.
+
+7. **Monitoreo y Gestión de Errores**:
+   - Es fundamental monitorear el estado de los pipelines y gestionar los errores de manera adecuada. Si un paso del pipeline falla, es importante registrar el error y tomar medidas correctivas.
+
+8. **Seguridad y Cumplimiento**:
+   - La seguridad de los datos es esencial en la ingeniería de datos. Se deben implementar medidas de seguridad y cumplir con las regulaciones pertinentes, como el RGPD en Europa o HIPAA en el ámbito de la salud en EE. UU.
+
+9. **Escalabilidad y Rendimiento**:
+   - Los pipelines deben diseñarse para ser escalables y poder manejar grandes volúmenes de datos y aumentos en la carga de trabajo.
+
+10. **Documentación y Mantenimiento**:
+    - Es fundamental documentar los pipelines para que sean comprensibles por otros miembros del equipo. Además, se debe mantener y actualizar regularmente para adaptarse a cambios en los datos o en los requisitos del negocio.
+
+En resumen, un pipeline en ingeniería de datos es un proceso estructurado y automatizado que permite la gestión eficiente de datos desde su origen hasta su destino, pasando por etapas de extracción, transformación, transporte y carga. Estos pipelines son esenciales para garantizar que los datos sean útiles y confiables para su análisis y toma de decisiones en el mundo empresarial. Como ingeniero de datos, es importante comprender y dominar la construcción y gestión de pipelines efectivos.
+
+
+## Examen de Módulo 1 
+
+1. ¿Cuál de estas habilidades es esensiales para un rol de ingenería de datos?
+
+- Configurar y administrar la infraestructura requeriada para la ingesta, procesamiento y almacenamiento de datos.
+
+2. De acuerdo con Sarah Flinck, ¿qué se necesita tener rastreado y analizando para mantener al negocio actualizado acerca de los sentimientos d elos consumidores.
+
+- Redes socuales, reseñas de consumidores, califaicaciones en plataformas digitales y reseñas de bloqueros.
 
