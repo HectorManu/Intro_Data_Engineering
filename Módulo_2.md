@@ -227,9 +227,76 @@ Aquí hay algunos consejos específicos para trabajar con datos complejos:
 
 ## Resumen y aspectos destacados 
 
+El ecosistema de un ingeniero de datos es un conjunto de herramientas, marcos y procesos que se utilizan para extraer, preparar, analizar y visualizar datos.
+
+Los datos se pueden clasificar según su estructura en datos estructurados, semiestructurados y no estructurados. Los datos estructurados son datos bien organizados que se pueden almacenar en bases de datos relacionales. Los datos semiestructurados son datos parcialmente organizados que pueden almacenarse en bases de datos NoSQL. Los datos no estructurados son datos que no se pueden organizar convencionalmente en filas y columnas.
+
+Los datos se pueden encontrar en una variedad de fuentes, como bases de datos relacionales y NoSQL, API, servicios web, flujos de datos, plataformas sociales y dispositivos sensores.
+
+Una vez que los datos se identifican y recopilan de diferentes fuentes, es necesario almacenarlos en un repositorio de datos para que puedan prepararse para el análisis. El tipo, formato y fuentes de datos influyen en el tipo de repositorio de datos que se puede utilizar.
+
+Los profesionales de datos necesitan una gran cantidad de lenguajes que puedan ayudarlos a extraer, preparar y analizar datos. Estos se pueden clasificar como:
+
+* Lenguajes de consulta, como SQL, utilizados para acceder y manipular datos de bases de datos.
+* Lenguajes de programación como Python, R y Java, para desarrollar aplicaciones y controlar el comportamiento de las aplicaciones.
+* Lenguajes Shell y Scripting, como Unix/Linux Shell y PowerShell, para automatizar tareas operativas repetitivas.
+
+En resumen, el ecosistema de un ingeniero de datos es un conjunto de herramientas y procesos que ayudan a los profesionales de datos a extraer, preparar, analizar y visualizar datos.
+
+Aquí hay algunos puntos adicionales que se pueden mencionar en el resumen:
+
+* El ecosistema de un ingeniero de datos está en constante evolución, ya que aparecen nuevas tecnologías y métodos de análisis de datos.
+* Los ingenieros de datos deben estar al tanto de las últimas tendencias en el campo para poder mantenerse competitivos.
+* El ecosistema de un ingeniero de datos puede ser complejo, pero es importante entenderlo para poder utilizar los datos de manera efectiva.
+
 ## Descripcion general de los repositorios de datos
 
+Un repositorio de datos es un conjunto de datos que han sido recopilados, organizados y aislados para que puedan usarse para operaciones comerciales o extraerse para informes y análisis de datos. Puede ser una infraestructura de base de datos pequeña o grande con una o más bases de datos que recopilan, administran y almacenan conjuntos de datos.
+
+Los repositorios de datos se pueden clasificar en tres tipos principales:
+
+* **Bases de datos:** Las bases de datos son una colección de datos organizados que se almacenan en un formato tabular. Las bases de datos pueden ser relacionales o no relacionales. Las bases de datos relacionales almacenan datos en filas y columnas, mientras que las bases de datos no relacionales almacenan datos de forma libre.
+* **Almacenes de datos:** Los almacenes de datos son repositorios centralizados de datos que se recopilan de diferentes fuentes. Los almacenes de datos se utilizan para el análisis y la inteligencia empresarial.
+* **Grandes almacenes de datos:** Los grandes almacenes de datos son repositorios de datos de gran tamaño que se utilizan para el análisis de big data.
+
+Los repositorios de datos desempeñan un papel importante en las organizaciones. Ayudan a las organizaciones a organizar y almacenar datos de forma eficiente, lo que facilita el análisis y la toma de decisiones.
+
+En resumen, los repositorios de datos son conjuntos de datos organizados que se utilizan para almacenar, administrar y analizar datos. Pueden ser grandes o pequeños, y pueden ser relacionales o no relacionales. Los repositorios de datos desempeñan un papel importante en las organizaciones al ayudarlas a organizar y almacenar datos de forma eficiente.
+
+Aquí hay algunos puntos adicionales que se pueden mencionar en el resumen:
+
+* Los repositorios de datos pueden ayudar a las organizaciones a mejorar su eficiencia operativa al proporcionar datos precisos y actualizados.
+* Los repositorios de datos pueden ayudar a las organizaciones a tomar mejores decisiones al proporcionar información sobre los patrones y tendencias de los datos.
+* Los repositorios de datos pueden ayudar a las organizaciones a identificar nuevas oportunidades de negocio al proporcionar información sobre los clientes y el mercado.
+
 ## RDBMS
+
+En resumen, una base de datos relacional es una colección de datos organizada en una estructura de tabla, donde las tablas pueden vincularse o relacionarse en función de datos comunes a cada una.
+
+Las tablas están formadas por filas y columnas, donde las filas son los "registros" y las columnas los "atributos".
+
+Las bases de datos relacionales utilizan un lenguaje de consulta estructurado, o SQL, para consultar datos.
+
+Las bases de datos relacionales tienen una serie de ventajas, como:
+
+* Flexibilidad: se pueden agregar, eliminar o modificar tablas y columnas sin detener la base de datos.
+* Redundancia reducida: los datos se almacenan una sola vez, lo que reduce la posibilidad de errores.
+* Facilidad de copia de seguridad y recuperación ante desastres: las bases de datos relacionales se pueden exportar e importar fácilmente.
+* Cumplimiento de ACID: los datos de la base de datos son precisos y consistentes, incluso en caso de fallos.
+
+Las bases de datos relacionales se utilizan en una variedad de casos de uso, incluidos:
+
+* Procesamiento de transacciones en línea (OLTP): las bases de datos relacionales son adecuadas para aplicaciones que requieren una gran cantidad de transacciones rápidas, como las tiendas en línea.
+* Almacenes de datos: las bases de datos relacionales se pueden utilizar para almacenar y analizar datos históricos para inteligencia empresarial.
+* Soluciones de IoT: las bases de datos relacionales se pueden utilizar para recopilar y procesar datos de dispositivos IoT.
+
+Las bases de datos relacionales tienen algunas limitaciones, como:
+
+* No funcionan bien con datos semiestructurados o no estructurados.
+* Los esquemas y tipos de datos deben ser idénticos para migrar datos entre bases de datos relacionales.
+* Las bases de datos relacionales tienen un límite en la longitud de los campos de datos.
+
+A pesar de estas limitaciones, las bases de datos relacionales siguen siendo la tecnología predominante para trabajar con datos estructurados.
 
 ## No SQL
 
