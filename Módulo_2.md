@@ -21,8 +21,8 @@
   - [Plataformas de integración de Datos](#plataformas-de-integración-de-datos)
   - [Herramientas, bases de datos y repositorios de datos de elección](#herramientas-bases-de-datos-y-repositorios-de-datos-de-elección)
   - [Resumen y aspectos destacados](#resumen-y-aspectos-destacados-1)
-  - [Fndamentos del Big Data](#fndamentos-del-big-data)
-  - [Heerramientas de procesamiento de Big Data: Hadoop, HDFS, Hive y Spark](#heerramientas-de-procesamiento-de-big-data-hadoop-hdfs-hive-y-spark)
+  - [Fundamentos del Big Data](#fundamentos-del-big-data)
+  - [Herramientas de procesamiento de Big Data: Hadoop, HDFS, Hive y Spark](#herramientas-de-procesamiento-de-big-data-hadoop-hdfs-hive-y-spark)
   - [Impacto del Big Data en la Ingeniería de Datos](#impacto-del-big-data-en-la-ingeniería-de-datos)
   - [Resumen y aspectos destacados](#resumen-y-aspectos-destacados-2)
 
@@ -206,6 +206,25 @@ En general, los profesionales de los datos deben tener un conocimiento básico d
 
 ## Trabajar con diversas fuentes y tipos de datos
 
+En este video, varios profesionales de datos hablan de sus experiencias de trabajo con una variedad de fuentes de datos y tipos de datos. Comparten sus desafíos y consejos para trabajar con datos complejos.
+
+Un tema común es que las fuentes de datos pueden ser muy diferentes. Las bases de datos relacionales son una fuente de datos común, pero también hay bases de datos NoSQL, repositorios de big data y formatos de datos propietarios. Los datos también pueden estar en reposo, en transmisión o en movimiento.
+
+Los profesionales de datos deben ser flexibles y capaces de aprender nuevas habilidades para trabajar con diferentes fuentes de datos. También deben ser conscientes de los desafíos específicos de cada tipo de fuente de datos.
+
+Por ejemplo, los datos de registro son no estructurados, lo que puede dificultar su interpretación. Los datos XML pueden ser pesados y requerir mucho procesamiento. Los datos JSON son más eficientes que los XML, pero aún pueden ser difíciles de trabajar.
+
+Los profesionales de datos también deben ser conscientes de los desafíos específicos de cada proyecto. Por ejemplo, un proyecto puede requerir la conversión de datos de un formato a otro. Esto puede ser un desafío si los formatos tienen diferentes requisitos.
+
+En general, los profesionales de datos deben estar preparados para trabajar con una variedad de fuentes de datos y tipos de datos. Deben ser flexibles, adaptables y conscientes de los desafíos específicos que pueden encontrar.
+
+Aquí hay algunos consejos específicos para trabajar con datos complejos:
+
+* **Empieza con una comprensión clara de las necesidades del proyecto.** ¿Qué tipo de datos necesitas? ¿Cómo se utilizarán los datos?
+* **Investiga las diferentes fuentes de datos disponibles.** ¿Cuál es el mejor formato para los datos que necesitas?
+* **Utiliza herramientas y técnicas adecuadas para trabajar con datos complejos.** Hay muchas herramientas disponibles para ayudarte a trabajar con datos de diferentes tipos.
+* **No tengas miedo de pedir ayuda.** Si te encuentras atascado, hay muchos recursos disponibles para ayudarte.
+
 ## Resumen y aspectos destacados 
 
 ## Descripcion general de los repositorios de datos
@@ -226,9 +245,9 @@ En general, los profesionales de los datos deben tener un conocimiento básico d
 
 ## Resumen y aspectos destacados
 
-## Fndamentos del Big Data
+## Fundamentos del Big Data
 
-## Heerramientas de procesamiento de Big Data: Hadoop, HDFS, Hive y Spark
+## Herramientas de procesamiento de Big Data: Hadoop, HDFS, Hive y Spark
 
 
 ## Impacto del Big Data en la Ingeniería de Datos
