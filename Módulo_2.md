@@ -11,6 +11,7 @@
   - [Fuentes de Datos (archivos, bases de datos, web, API, flujos)](#fuentes-de-datos-archivos-bases-de-datos-web-api-flujos)
   - [Idiomas para profesionales de datos](#idiomas-para-profesionales-de-datos)
   - [Trabajar con diversas fuentes y tipos de datos](#trabajar-con-diversas-fuentes-y-tipos-de-datos)
+  - [Modulo 2 exámen Examen 1](#modulo-2-exámen-examen-1)
   - [Resumen y aspectos destacados](#resumen-y-aspectos-destacados)
   - [Descripcion general de los repositorios de datos](#descripcion-general-de-los-repositorios-de-datos)
   - [RDBMS](#rdbms)
@@ -20,6 +21,7 @@
   - [ETL, ELT y canalizacioens de Datos](#etl-elt-y-canalizacioens-de-datos)
   - [Plataformas de integración de Datos](#plataformas-de-integración-de-datos)
   - [Herramientas, bases de datos y repositorios de datos de elección](#herramientas-bases-de-datos-y-repositorios-de-datos-de-elección)
+  - [Modulo 2 examen 2](#modulo-2-examen-2)
   - [Resumen y aspectos destacados](#resumen-y-aspectos-destacados-1)
   - [Fundamentos del Big Data](#fundamentos-del-big-data)
   - [Herramientas de procesamiento de Big Data: Hadoop, HDFS, Hive y Spark](#herramientas-de-procesamiento-de-big-data-hadoop-hdfs-hive-y-spark)
@@ -60,40 +62,8 @@ Los **datos semiestructurados** son datos que esetán organizados y se basan en 
 
 Los **datos no estructurados** son datos que no están organizados convencionalmente en forma de filas y columnas en un formato particular.
 
-> nota investigar si e historioco de un datawerhouse, y los data lakes
->
-> Hacer un cuadro comparativos 
-> data lake 
-> data werhouse
-> big data 
->
-> con peros y contras y definiciones 
->
-
-Diferentes soluciones de almacenamiento en la nube.
-
-Características |Data Warehouse | Data lake | Big Data | Data mart
----|---|---|---|---
-Propósito|Almacena datos estructurados <br> para análisis y repotes|Almacena datos estructurados, semiestructurados y no estructurados para análisis y aprendizaje automático|Almacenar grandes cantidades de datos estructurados, semiestructurados y no estructurados|Almacenar datos estructurados para análisis y reportes de una unidad de negocio específica
-Tipo de datos|Estructurados|Estructurados, semiestructurados y no estructurados|Estructuraod, semiestructurados y no estructurados| Estructurados
-Cantidad de datos|Grander cantidades|Muy grandes cantidades|Muy grandes cantidades|Pequeñas o grandes cantidades
-Preprocesamiento|OLAP|ETL|ETL|OLAP
-Velocidad| Rápido |Lento|Muy Lento |Rápido
-Ejemplos|Bases de datos relacionales, OLTP, OLAP|Sistemas de archivos,, base de datos NoSQL, Hadoop|Sistemas de archivos, bases de datos NoSQL, Hadoop|Bases de datos relacionales, OLAP
-Uso de datos|Análisis de negocios|Almacenamiento de datos|Análisis de datos, aprendizaje, automático y otras tareas de inteligencia artificial|Análisis de negocios 
-___ |Almacena datos en un formato estructurado. Se trata de un repositorio central de datos previamente procesados para llevar a cabo análisis y obtener inteligencia empresarial. | Es un repositorio centra que contiene datos sin procesary y no estructurados. | --- | Almacenamiento útil par alas necesidades de un equipo o una unidad de negocios específico, con finanzas, merkating o ventas. 
-____ |Varios origenes de de datos|---|---| Fuentes de datos menos diversas y menor tamaño
-____ |Se almacenan en varias unidades empresariales. Integran los datos de toda la organización de forma centralizada para los análisis sean completos|---|---|Se centran en un único asunto y tienen un carácter más descentralizado. Suelen filtrar y resumir la información de otro almacenamiento de datos existente.
-____ |---|---|---
-
-<br>
 
 
-Rol|Análista de datos|Científico de datos|Inteligencia de negocio|Ingeniero en datos
----|---|---|---|---
-Responsabilidades|Recolecatar, limpiar y analizar datos para identificar tendencia y patrones.|Desarrollar y aplicar modelso de aprendizaje automático para resolver problemas comerciales| Comprender las necesidades comerciales y traducirlas en soluciones de datos.| Constuir y mantener sistemas de datos
-Habilidadees y conocmientos|Matemáticas, estadística, análisi de datos, visualización de datos.|Matemáticas, estadística,d aprendizaje automático, programación.|Negocios, análisis de datos, comunicación.|Programación, arquitectura de datos, gesetión de sistemas.
-||---|---|---
 
 ## Comprender diferentes tipos de formatos de archivos (delimitados, CSV, TSV, XML, PDF, XLS y JSON)
 
@@ -225,6 +195,23 @@ Aquí hay algunos consejos específicos para trabajar con datos complejos:
 * **Utiliza herramientas y técnicas adecuadas para trabajar con datos complejos.** Hay muchas herramientas disponibles para ayudarte a trabajar con datos de diferentes tipos.
 * **No tengas miedo de pedir ayuda.** Si te encuentras atascado, hay muchos recursos disponibles para ayudarte.
 
+## Modulo 2 exámen Examen 1 
+
+1. Herramientas automáticas, frameworks, y procesos del almacenamiento para el proceso de análisis de datos es parte del ecosistema de Ingenería de Datos. ¿Qué papel juegan el rol de datos en este ecosistema? 
+
+- Combinar multiples fuentes de datos en una vista unificada para el acceso de las consultas de los consumidores, consultas y manipulación de datos.
+
+2. Cuál de los formatos de datos es proporcinado comunmente por APIs y servicios web para devolver datos?
+
+- JSON 
+
+3. Cuál es un ejemplo de una base de datos relacional?
+- SQL Server
+
+4. Cuál de los siguiente lenguajes es uno de los más pupulares de consultas usado hoy en día?
+
+- SQL
+
 ## Resumen y aspectos destacados 
 
 El ecosistema de un ingeniero de datos es un conjunto de herramientas, marcos y procesos que se utilizan para extraer, preparar, analizar y visualizar datos.
@@ -256,8 +243,8 @@ Un repositorio de datos es un conjunto de datos que han sido recopilados, organi
 Los repositorios de datos se pueden clasificar en tres tipos principales:
 
 * **Bases de datos:** Las bases de datos son una colección de datos organizados que se almacenan en un formato tabular. Las bases de datos pueden ser relacionales o no relacionales. Las bases de datos relacionales almacenan datos en filas y columnas, mientras que las bases de datos no relacionales almacenan datos de forma libre.
-* **Almacenes de datos:** Los almacenes de datos son repositorios centralizados de datos que se recopilan de diferentes fuentes. Los almacenes de datos se utilizan para el análisis y la inteligencia empresarial.
-* **Grandes almacenes de datos:** Los grandes almacenes de datos son repositorios de datos de gran tamaño que se utilizan para el análisis de big data.
+* **Almacenes de datos(*data Warehouse*):** Los almacenes de datos son repositorios centralizados de datos que se recopilan de diferentes fuentes. Los almacenes de datos se utilizan para el análisis y la inteligencia empresarial.
+* **Grandes almacenes de datos(*big data*):** Los grandes almacenes de datos son repositorios de datos de gran tamaño que se utilizan para el análisis de big data.
 
 Los repositorios de datos desempeñan un papel importante en las organizaciones. Ayudan a las organizaciones a organizar y almacenar datos de forma eficiente, lo que facilita el análisis y la toma de decisiones.
 
@@ -300,22 +287,261 @@ A pesar de estas limitaciones, las bases de datos relacionales siguen siendo la 
 
 ## No SQL
 
+Las bases de datos NoSQL son un tipo de base de datos que no utiliza el modelo relacional tradicional de filas/columnas/tablas con esquemas fijos. En cambio, utilizan diferentes modelos de datos para almacenar datos de forma flexible y eficiente.
+
+Las bases de datos NoSQL se utilizan cada vez más para aplicaciones modernas que requieren el almacenamiento de grandes volúmenes de datos estructurados, semiestructurados o no estructurados.
+
+Existen cuatro tipos principales de bases de datos NoSQL:
+
+* **Almacenes de valores clave:** almacenan datos como pares clave-valor, donde la clave identifica un único valor. Son adecuados para almacenar datos de sesión de usuario, preferencias de usuario, caché en memoria, etc.
+* **Bases de datos de documentos:** almacenan datos como documentos JSON o XML. Son adecuados para almacenar datos de aplicaciones web, datos de comercio electrónico, etc.
+* **Bases de datos de columnas:** almacenan datos en columnas, lo que las hace adecuadas para aplicaciones que requieren grandes volúmenes de escrituras, como el almacenamiento de datos de series temporales.
+* **Bases de datos de gráficos:** almacenan datos como un gráfico de nodos y relaciones. Son adecuadas para aplicaciones que requieren el análisis de relaciones entre datos, como redes sociales, detección de fraude, etc.
+
+Las bases de datos NoSQL ofrecen una serie de ventajas sobre las bases de datos relacionales tradicionales, entre las que se incluyen:
+
+* **Mayor flexibilidad y escalabilidad:** las bases de datos NoSQL pueden almacenar y manipular datos de forma flexible, lo que las hace adecuadas para aplicaciones que requieren el procesamiento de grandes volúmenes de datos de diferentes tipos.
+* **Menor coste:** las bases de datos NoSQL están diseñadas para hardware básico de bajo costo, lo que las hace más asequibles que las bases de datos relacionales tradicionales.
+
+Sin embargo, las bases de datos NoSQL también tienen algunas desventajas, como:
+
+* **Menor compatibilidad con ACID:** la mayoría de las bases de datos NoSQL no ofrecen la misma compatibilidad con ACID que las bases de datos relacionales tradicionales, lo que puede limitar su uso en aplicaciones que requieren transacciones seguras.
+* **Menor madurez:** las bases de datos NoSQL son una tecnología relativamente nueva, por lo que puede haber menos documentación y soporte disponibles que para las bases de datos relacionales tradicionales.
+
+En general, las bases de datos NoSQL son una opción adecuada para aplicaciones modernas que requieren el almacenamiento de grandes volúmenes de datos estructurados, semiestructurados o no estructurados.
+
 ## Data Warehouses, Data Marts y Data Lakes
+
+Los repositorios de minería de datos son sistemas que almacenan datos para su análisis. Hay tres tipos principales de repositorios de minería de datos:
+
+* **Data Warehouse:** almacenan datos estructurados de múltiples fuentes y los integran en una única fuente de verdad. Los almacenes de datos se utilizan para el análisis de grandes volúmenes de datos.
+* **Data Mart:** son subconjuntos de un almacén de datos que se crean para un propósito específico, como el análisis de ventas o el análisis financiero. Los mercados de datos se utilizan para proporcionar a los usuarios los datos que necesitan para tomar decisiones.
+* **Data Lake :** almacenan datos en su formato nativo, sin procesar. Los lagos de datos se utilizan para almacenar grandes volúmenes de datos de diferentes fuentes y para permitir a los usuarios explorar los datos para identificar tendencias y patrones.
+
+Los repositorios de minería de datos se pueden implementar en la nube o en las instalaciones. Los repositorios de la nube ofrecen flexibilidad y escalabilidad, mientras que los repositorios en las instalaciones ofrecen mayor control y seguridad.
+
+La elección del repositorio de minería de datos adecuado depende de las necesidades específicas de la organización. Si la organización necesita analizar grandes volúmenes de datos estructurados, un almacén de datos es una buena opción. Si la organización necesita proporcionar a los usuarios los datos que necesitan para tomar decisiones, un mercado de datos es una buena opción. Si la organización necesita almacenar grandes volúmenes de datos de diferentes fuentes y permitir a los usuarios explorar los datos para identificar tendencias y patrones, un lago de datos es una buena opción.
+
+Aquí hay un resumen de las características y aplicaciones de cada tipo de repositorio de minería de datos:
+
+**Almacenes de datos**
+
+* Características:
+    * Almacenan datos estructurados
+    * Los datos están integrados en una única fuente de verdad
+    * Los datos están preparados para el análisis
+* Aplicaciones:
+    * Análisis de grandes volúmenes de datos
+    * Toma de decisiones
+
+**Mercados de datos**
+
+* Características:
+    * Son subconjuntos de un almacén de datos
+    * Se crean para un propósito específico
+    * Los datos están preparados para el análisis
+* Aplicaciones:
+    * Proporcionar a los usuarios los datos que necesitan para tomar decisiones
+
+**Lagos de datos**
+
+* Características:
+    * Almacenan datos en su formato nativo, sin procesar
+    * Los datos se pueden almacenar de diversas fuentes
+    * Los datos se pueden explorar para identificar tendencias y patrones
+* Aplicaciones:
+    * Almacenar grandes volúmenes de datos de diferentes fuentes
+    * Explorar datos para identificar tendencias y patrones
+Sata Warehouses ya están modelados y estructurados para un propósito específico. 
+
+> nota investigar si e historioco de un datawerhouse, y los data lakes
+>
+> Hacer un cuadro comparativos 
+> data lake 
+> data werhouse
+> big data 
+>
+> con peros y contras y definiciones 
+>
+
+Diferentes soluciones de almacenamiento en la nube.
+
+> Nota: ¿Big data debe ir en la siguiente tabla?
+
+
+Características |Data Warehouse | Data lake | Data mart | Big Data
+---|---|---|---|---
+Propósito|Almacena datos estructurados <br> para análisis y repotes | Almacena datos estructurados, semiestructurados y no estructurados para análisis y aprendizaje automático| Almacenar datos estructurados para análisis y reportes de una unidad de negocio específica | Almacenar grandes cantidades de datos estructurados, semiestructurados y no estructurados 
+Tipo de datos|Estructurados | Estructuraod, semiestructurados y no estructurados| Estructurados | Estructurados, semiestructurados y no estructurados
+Cantidad de datos | Grander cantidades | Muy grandes cantidades | Pequeñas o grandes cantidades | Muy grandes cantidades
+Preprocesamiento | OLAP | ETL | OLAP | ETL
+Velocidad | Rápido | Lento | Rápido | Muy Lento
+Ejemplos | Bases de datos relacionales, OLTP, OLAP | Sistemas de archivos,, base de datos NoSQL, Hadoop | Bases de datos relacionales, OLAP | Sistemas de archivos, bases de datos NoSQL, Hadoop
+Uso de datos | Análisis de negocios|Almacenamiento de datos | Análisis de negocios | Análisis de datos, aprendizaje, automático y otras tareas de inteligencia artificial
+___ | Almacena datos en un formato estructurado. Se trata de un repositorio central de datos previamente procesados para llevar a cabo análisis y obtener inteligencia empresarial. | Es un repositorio centra que contiene datos sin procesary y no estructurados. | Almacenamiento útil par alas necesidades de un equipo o una unidad de negocios específico, con finanzas, merkating o ventas. | ---
+____ |Varios origenes de de datos|---| Fuentes de datos menos diversas y menor tamaño|---
+____ |Se almacenan en varias unidades empresariales. Integran los datos de toda la organización de forma centralizada para los análisis sean completos|---|Se centran en un único asunto y tienen un carácter más descentralizado. Suelen filtrar y resumir la información de otro almacenamiento de datos existente.|---
+____ |---|---|---
+
+
+
+
+
+Podemos observar que la tabla anterior presenta big data pero la comparación no es justa debido a que no es una forma de gestionar los datos y los demás sí son una forma de gestionarlos ya que un data lake es un conjunto de datos no procesado, un data warehouse son datos ya procesados y consultados para elaborar análisis y por último se tiene al data mart que es un conjunto de datos tomado de un data warehouse donde se almacenan datos en específico para análisis de negocio.
+
+Definir el Big data con una fuente de respaldo. 
+
+<br>
+
+> invertir el big data hasta al final para que haga alusión a que se manejarán los datos 
+
+Rol|Análista de datos|Científico de datos|Inteligencia de negocio|Ingeniero en datos
+---|---|---|---|---
+Responsabilidades|Recolecatar, limpiar y analizar datos para identificar tendencia y patrones.|Desarrollar y aplicar modelso de aprendizaje automático para resolver problemas comerciales| Comprender las necesidades comerciales y traducirlas en soluciones de datos.| Constuir y mantener sistemas de datos
+Habilidadees y conocmientos|Matemáticas, estadística, análisi de datos, visualización de datos.|Matemáticas, estadística,d aprendizaje automático, programación.|Negocios, análisis de datos, comunicación.|Programación, arquitectura de datos, gesetión de sistemas.
+||---|---|---
 
 ## Consideraciones para la elección del repositorio de Datos
 
+Estos factores incluyen:
+
+* El caso de uso: ¿Para qué se utilizará el repositorio de datos?
+* El tipo de datos: ¿Los datos son estructurados, semiestructurados o no estructurados?
+* Los requisitos de rendimiento: ¿Qué nivel de rendimiento se necesita?
+* Los requisitos de almacenamiento: ¿Cuánto espacio de almacenamiento se necesita?
+* Los requisitos de seguridad: ¿Cómo se protegerán los datos?
+* La compatibilidad: ¿Es compatible el repositorio de datos con los sistemas existentes?
+* La escalabilidad: ¿Puede el repositorio de datos escalar para satisfacer las necesidades futuras?
+
+Los profesionales de datos entrevistados recomiendan que las organizaciones tengan una variedad de repositorios de datos para satisfacer sus diferentes necesidades. Por ejemplo, una organización puede utilizar una base de datos relacional para el análisis de datos estructurados, un almacén de documentos para el almacenamiento de datos semiestructurados y un lago de datos para el almacenamiento de datos no estructurados.
+
+También es importante tener en cuenta las habilidades y los costos de las diferentes soluciones. Por ejemplo, una organización que tiene muchos expertos en bases de datos relacionales puede querer elegir una base de datos relacional como su principal repositorio de datos.
+
+En última instancia, la elección del repositorio de datos adecuado depende de las necesidades específicas de la organización.
+
+Aquí hay algunos consejos adicionales para elegir un repositorio de datos:
+
+* Evalúe las necesidades de su organización con cuidado.
+* Considere los diferentes tipos de repositorios de datos disponibles.
+* Compare los pros y los contras de cada opción.
+* Consulte con expertos en datos para obtener ayuda.
+
 ## ETL, ELT y canalizacioens de Datos 
+
+* **ETL:** extracción, transformación y carga.
+* **ELT:** extracción, carga y transformación.
+* **Canalizaciones de datos:** un sistema que abarca todo el recorrido de los datos.
+
+**ETL** es el proceso tradicional de mover datos. Los datos se extraen de una fuente, se transforman en un formato utilizable y se cargan en un destino. Este proceso se puede realizar por lotes o en tiempo real.
+
+**ELT** es una variación del proceso ETL en la que los datos se cargan primero en el destino y luego se transforman. Este enfoque es más adecuado para trabajar con grandes cantidades de datos no estructurados o no relacionales.
+
+**Las canalizaciones de datos** son sistemas que abarcan todo el recorrido de los datos, desde la extracción de la fuente hasta la carga en el destino. Las canalizaciones de datos se pueden diseñar para procesamiento por lotes, transmisión de datos o una combinación de ambos.
+
+Aquí hay un resumen de las ventajas de cada enfoque:
+
+**ETL**
+
+* Ventajas:
+    * Es un proceso bien establecido y probado.
+    * Se puede utilizar para una amplia gama de aplicaciones.
+    * Es relativamente fácil de implementar y mantener.
+* Desventajas:
+    * Puede ser lento para procesar grandes cantidades de datos.
+    * Puede ser difícil de escalar para satisfacer las necesidades cambiantes.
+
+**ELT**
+
+* Ventajas:
+    * Es más rápido para procesar grandes cantidades de datos.
+    * Es más fácil de escalar para satisfacer las necesidades cambiantes.
+    * Es más flexible para análisis exploratorios.
+* Desventajas:
+    * Puede ser más difícil de implementar y mantener que el ETL.
+    * No es adecuado para todos los tipos de aplicaciones.
+
+**Canalizaciones de datos**
+
+* Ventajas:
+    * Es el enfoque más flexible para mover datos.
+    * Se puede utilizar para una amplia gama de aplicaciones.
+    * Es escalable para satisfacer las necesidades cambiantes.
+* Desventajas:
+    * Es el enfoque más complejo para mover datos.
+    * Puede ser más costoso implementar y mantener que el ETL o ELT.
+
+La mejor opción para mover datos depende de las necesidades específicas de la organización.
 
 ## Plataformas de integración de Datos 
 
+La integración de datos es el proceso de combinar datos de diferentes fuentes para crear una vista unificada. Esto puede ser necesario para una variedad de propósitos, como análisis, informes y cumplimiento.
+
+Una plataforma de integración de datos es un conjunto de herramientas y servicios que ayudan a las empresas a integrar datos. Las plataformas de integración de datos suelen incluir las siguientes capacidades:
+
+* Conectores y adoptadores para conectarse a una amplia variedad de fuentes de datos
+* Arquitectura de código abierto para mayor flexibilidad
+* Optimización para el procesamiento por lotes y el streaming de datos
+* Soporte para fuentes de Big Data
+* Funcionalidades adicionales, como calidad y gobernanza de los datos, cumplimiento y seguridad
+* Portabilidad para ejecutarse en la nube o en las instalaciones
+
+Hay muchas plataformas y herramientas de integración de datos disponibles en el mercado, desde herramientas comerciales listas para usar hasta marcos de código abierto.
+
+La integración de datos es una disciplina compleja que requiere una comprensión de las diferentes fuentes de datos, los requisitos de la empresa y las mejores prácticas. Las plataformas de integración de datos pueden ayudar a las empresas a simplificar el proceso de integración de datos y aprovechar los beneficios de los datos integrados.
+
+Aquí hay algunos puntos clave del texto:
+
+* La integración de datos combina datos de diferentes fuentes para crear una vista unificada.
+* Una plataforma de integración de datos es un conjunto de herramientas y servicios que ayudan a las empresas a integrar datos.
+* Las plataformas de integración de datos suelen incluir las siguientes capacidades:
+    * Conectores y adoptadores para conectarse a una amplia variedad de fuentes de datos
+    * Arquitectura de código abierto para mayor flexibilidad
+    * Optimización para el procesamiento por lotes y el streaming de datos
+    * Soporte para fuentes de Big Data
+    * Funcionalidades adicionales, como calidad y gobernanza de los datos, cumplimiento y seguridad
+    * Portabilidad para ejecutarse en la nube o en las instalaciones
+* Hay muchas plataformas y herramientas de integración de datos disponibles en el mercado, desde herramientas comerciales listas para usar hasta marcos de código abierto.
+* La integración de datos es una disciplina compleja que requiere una comprensión de las diferentes fuentes de datos, los requisitos de la empresa y las mejores prácticas.
+
 ## Herramientas, bases de datos y repositorios de datos de elección
+
+En este video, varios profesionales de datos hablan de las herramientas, bases de datos y repositorios de datos que utilizan en su trabajo.
+
+En general, los profesionales de datos utilizan una combinación de herramientas y tecnologías para realizar sus tareas. Estas herramientas pueden incluir:
+
+* Bases de datos relacionales, como MySQL, PostgreSQL y SQL Server
+* Bases de datos NoSQL, como MongoDB, Cassandra y Neo4j
+* Herramientas de procesamiento de Big Data, como Apache Spark y Hadoop
+* Herramientas de transmisión de datos, como Apache Kafka
+* Herramientas de integración de datos, como Talend y Apache Airflow
+* Herramientas de análisis de datos, como Tableau y Power BI
+
+Los profesionales de datos también suelen utilizar lenguajes de programación, como Python, R y SQL, para automatizar tareas y crear nuevos procesos.
+
+Algunos de los profesionales que aparecen en el video hablan de sus experiencias específicas con estas herramientas y tecnologías. Por ejemplo, un profesional habla de su trabajo con IBM DB2, un popular sistema de gestión de bases de datos relacionales. Otro profesional habla de su trabajo con Apache Airflow, una herramienta de orquestación de datos de código abierto.
+
+En general, el video proporciona una visión general de las herramientas y tecnologías que utilizan los profesionales de datos en su trabajo. Es una información valiosa para cualquier persona que esté interesada en una carrera en ingeniería de datos.
+
+Aquí hay algunos puntos clave del video:
+
+* Los profesionales de datos utilizan una combinación de herramientas y tecnologías para realizar sus tareas.
+* Las bases de datos relacionales, las bases de datos NoSQL y las herramientas de procesamiento de Big Data son herramientas comunes para los profesionales de datos.
+* Los profesionales de datos también suelen utilizar lenguajes de programación para automatizar tareas y crear nuevos procesos.
+
+Espero que esto ayude.
+
+## Modulo 2 examen 2 
+
+El termino repositorio de datos se refieere exlusivamente a un RBDMes y a bases de datos NoSQL que se utilizan para coleecionar, organizar y airlar datos para el análisis.
+
+- Falso
+  - El termino de repositorios de datos no incluye solamente bases de datos RBDMSes y SQL, esto también incluye Data Warehouses, Data Marts y data lakes
 
 ## Resumen y aspectos destacados
 
 ## Fundamentos del Big Data
 
 ## Herramientas de procesamiento de Big Data: Hadoop, HDFS, Hive y Spark
-
 
 ## Impacto del Big Data en la Ingeniería de Datos
 
