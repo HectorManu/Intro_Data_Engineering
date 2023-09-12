@@ -97,8 +97,6 @@ Al elegir un formato de archivo de datos, es importante considerar los siguiente
 * **La necesidad de intercambio de datos:** Algunos formatos de archivo son mejores para el intercambio de datos que otros. Por ejemplo, JSON es una buena opción para datos que necesitan ser transmitidos a través de la web.
 * **La necesidad de seguridad:** Algunos formatos de archivo son más seguros que otros. Por ejemplo, PDF es una buena opción para documentos que necesitan ser compartidos de manera segura.
 
-Esperamos que este resumen te ayude a comprender los diferentes tipos y formatos de archivos de datos.
-
 ## Fuentes de Datos (archivos, bases de datos, web, API, flujos)
 
 Las fuentes de datos no han sido tan dinámicas y diversas como hoy en día. 
