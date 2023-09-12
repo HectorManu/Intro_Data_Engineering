@@ -24,9 +24,14 @@
   - [Modulo 2 examen 2](#modulo-2-examen-2)
   - [Resumen y aspectos destacados](#resumen-y-aspectos-destacados-1)
   - [Fundamentos del Big Data](#fundamentos-del-big-data)
+    - [Hadoop](#hadoop)
+    - [Spark](#spark)
+    - [Resumen:](#resumen)
+    - [Tres tecnologías de código abierto y el papel que juegan en el análisis de](#tres-tecnologías-de-código-abierto-y-el-papel-que-juegan-en-el-análisis-de)
   - [Herramientas de procesamiento de Big Data: Hadoop, HDFS, Hive y Spark](#herramientas-de-procesamiento-de-big-data-hadoop-hdfs-hive-y-spark)
   - [Impacto del Big Data en la Ingeniería de Datos](#impacto-del-big-data-en-la-ingeniería-de-datos)
   - [Resumen y aspectos destacados](#resumen-y-aspectos-destacados-2)
+  - [Modlulo 2 examen 3](#modlulo-2-examen-3)
 
 ## Descripción general del ecosistema de Ingenería de datos 
 
@@ -541,8 +546,81 @@ El termino repositorio de datos se refieere exlusivamente a un RBDMes y a bases 
 
 ## Fundamentos del Big Data
 
+**Las tecnologías de procesamiento de Big Data** proporcionaon formas de trabjaar con grandes conjuntos de datos estructurados y datos semiestructurador y no estructurados para que se pueda derivar valor de big data. 
+
+### Hadoop
+
+- Es una colección de herramientas que proporcionan almacenamiento y procesamiento distribuido de grande datos.
+- Un marco de código abierto basado en Java, permite el almacenamiento y procesamiento distribuido de grandes conjuntos de datos en grupos de computadoras.
+- Es un sistema distruibuido en el que un nodo es una sola computadora y una colección  de nodos forma un cúmulo.
+- Posibilidades de escalar desde un solo nodo a cualquier número de nodos, cada uno de los cules ofrece almacenamiento local y computación.
+- Porporciona una solución confiable, escalable y rentable para almacenar datos sin requisitos de formato.
+
+**Usando Hadoop, puedes:**
+- Incorporar formatos de datos emergentes, como transmisión de audio, video, sentimiento de las redes sociales y datos de secuncia de clics, junto con datos estructurados, semiestructurados y no estructurados que no tradicionalmente utilizado en un *data Warehouse*.
+- Porporcine acceso de autoservicio en tiempo real para todas las partes interesadas.
+- Optimice y agilice los costos en un *data warehouse* empresarial mediante la consolidación de datos en la organización y mover datos "fríos", es decir, datos que no se utilizan con frecuencia, a un sistema basado en Hadoop.
+
+Uno de los cuatro componentes principales de **Hadoop** es el sistema de archivos distribuido **Hadoop** o **HDFS**, que es un sistema de almacenamiento para big data que se ejecuta en múltiples hardware básicos conectados a través de una red. 
+
+**HDFS** proporciona almacenamiento de big daa eslable y confiable al divirid archivos en múltiples nodos. 
+* Divide archivos grandes en varias computdoras, permitiendo el acceso paralelo a ellos. Por lo tanto, los cálculos pueden ejecutarse en paralelo en cada nodo donde se almacenan los datos.
+* También replica bloques de archivoe en diferentes nodos para evitar la pérdida de datos, lo que lo hace tolerante a fallas.
+* Recuperación rápida de fallas de hardware, porque **HDFS** admite altas tasas de rendimiento de datos.
+* Alojamiento de grandes conjuntos de datos, porque **HDFS** puede escalar a cientos de nodos u computadoras, en un solo grupo.
+* Portabilidad, porque **HDFS** es portátil a través de múltiples plataformas de hardware y compatible con una variedad de sistemas operativos subyacentes.
+
+
+
+### Spark
+
+**Spark** es un marco de análisis de datos distribuido diseñado para realizar análisis de datos complejos en tiempo real.
+
+### Resumen:
+
+1. **Apache Hadoop:** Se describe como una colección de herramientas que proporciona almacenamiento y procesamiento distribuido de grandes conjuntos de datos en grupos de computadoras. Hadoop puede escalar desde un solo nodo hasta un número ilimitado de nodos, y permite el almacenamiento de datos en diversos formatos, incluyendo datos emergentes como transmisiones de audio, video, redes sociales y datos de secuencia de clics. Proporciona acceso en tiempo real para todas las partes interesadas y ayuda a optimizar los costos de almacenamiento de datos empresariales mediante la consolidación de datos y la gestión de datos "fríos".
+
+2. **Apache Hive:** Se presenta como un almacén de datos construido sobre Hadoop que se utiliza para consultas y análisis de datos. Hive es adecuado para tareas de almacenamiento de datos como ETL, informes y análisis, y ofrece acceso a los datos a través de SQL. Sin embargo, debido a su naturaleza basada en lectura, puede tener una latencia alta y no es ideal para aplicaciones que requieren respuestas rápidas o procesamiento de transacciones.
+
+3. **Apache Spark:** Se describe como un motor de procesamiento de datos de propósito general diseñado para una amplia gama de aplicaciones, incluyendo análisis interactivos, procesamiento de flujos, aprendizaje automático, integración de datos y ETL. Spark aprovecha el procesamiento en memoria para acelerar los cálculos y puede ejecutarse en diversas infraestructuras, incluyendo Hadoop. Ofrece interfaces para varios lenguajes de programación y puede acceder a datos de diversas fuentes, como HDFS y Hive. Su capacidad para procesar datos en streaming rápidamente y realizar análisis complejos en tiempo real es un caso de uso clave.
+
+****
+
+### Tres tecnologías de código abierto y el papel que juegan en el análisis de 
+
 ## Herramientas de procesamiento de Big Data: Hadoop, HDFS, Hive y Spark
 
 ## Impacto del Big Data en la Ingeniería de Datos
 
+ El Big Data se define mediante las cuatro "V": velocidad, veracidad, volumen y variedad. Esta revolución ha diversificado y enriquecido la ingeniería de datos, ya que las organizaciones recopilan una cantidad cada vez mayor de datos, lo que aumenta la importancia de extraer conocimientos de ellos.
+
+El Big Data ha dado lugar a nuevas tecnologías y productos relacionados con el manejo de grandes volúmenes y variedades de datos, lo que ha generado una gran demanda de profesionales capaces de trabajar eficazmente en la construcción, gestión y análisis de sistemas de Big Data. La aparición del Internet de las cosas (IoT) y las redes sociales ha cambiado la forma en que los datos se ingresan en las bases de datos, lo que ha impulsado la evolución de la ingeniería de datos.
+
+Antes, los sistemas de gestión de bases de datos relacionales (RDBMS) no eran la solución única para todos los tipos de datos. Con la diversidad de fuentes y volúmenes de datos, la ingeniería de datos ha evolucionado significativamente. Los ingenieros de datos han tenido que desarrollar nuevas herramientas y aprender nuevas tecnologías, como Google BigTable, Cassandra, bases de datos basadas en gráficos, Hadoop y MapReduce, para analizar petabytes de datos.
+
+
 ## Resumen y aspectos destacados 
+
+Resumen:
+
+En esta lección, has aprendido lo siguiente:
+
+1. **Big Data:** Se refiere a la gran cantidad de datos que se produce constantemente cada día, generados por personas, herramientas y máquinas. La velocidad, el volumen y la variedad de estos datos han desafiado las herramientas y sistemas utilizados para los datos convencionales, lo que ha llevado al surgimiento de herramientas y plataformas de procesamiento diseñadas específicamente para Big Data. Estas tecnologías de procesamiento de Big Data ayudan a extraer valor de los datos y pueden incluir bases de datos NoSQL, lagos de datos y tecnologías de código abierto como Apache Hadoop, Apache Hive y Apache Spark.
+
+2. **Hadoop:** Es una plataforma que proporciona almacenamiento y procesamiento distribuido de grandes conjuntos de datos en clústeres de computadoras. Uno de sus componentes clave es HDFS, el sistema de archivos distribuido de Hadoop, que se utiliza para almacenar datos a gran escala.
+
+3. **Hive:** Es un software de almacén de datos que permite leer, escribir y gestionar grandes conjuntos de datos.
+
+4. **Spark:** Es un motor de procesamiento de datos de propósito general diseñado para extraer y procesar grandes volúmenes de datos de manera eficiente.
+
+Estas tecnologías son esenciales para abordar los desafíos y las oportunidades que plantea el Big Data en la actualidad, y cada una de ellas desempeña un papel fundamental en el procesamiento y análisis de datos a gran escala.
+
+## Modlulo 2 examen 3
+
+1. ¿qué implica el atributo velocidad en el contexto de Big Data?
+
+La velocidad a la que se acomulan los datos
+
+2. Cuál de las herramientas de procesamiento de de Big data provee un almacenamiento distribuido y procesamiento de Big Data?
+
+Hadoop, es un java-based basado en open-source framework, que permite el almacenamiento distribuido y procesamiento de grander datasets a través de un cluster de computadoras.
