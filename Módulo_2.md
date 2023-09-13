@@ -95,7 +95,7 @@ Al elegir un formato de archivo de datos, es importante considerar los siguiente
 * **El tipo de datos que se almacenarán:** Algunos formatos de archivo son mejores para ciertos tipos de datos que otros. Por ejemplo, los archivos de texto delimitados son una buena opción para datos numéricos, mientras que las hojas de cálculo XLSX son una buena opción para datos de texto y números.
 * **La complejidad de los datos:** Algunos formatos de archivo son mejores para datos complejos que otros. Por ejemplo, XML es una buena opción para datos que necesitan ser organizados en una estructura compleja.
 * **La necesidad de intercambio de datos:** Algunos formatos de archivo son mejores para el intercambio de datos que otros. Por ejemplo, JSON es una buena opción para datos que necesitan ser transmitidos a través de la web.
-* **La necesidad de seguridad:** Algunos formatos de archivo son más seguros que otros. Por ejemplo, PDF es una buena opción para documentos que necesitan ser compartidos de manera segura.
+* **La necesidad de seguridad:** Algunos formatos de archivo son más seguros que otros. Por ejemplo, PDF es una buena opción para documentos que necesitan ser compartidos de manera segura.  
 
 ## Fuentes de Datos (archivos, bases de datos, web, API, flujos)
 
